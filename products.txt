@@ -1,0 +1,2502 @@
+db.products.insertMany([
+  {
+    "title": "Producto 1",
+    "description": "Descripción del producto 1.",
+    "code": "CODE001",
+    "price": 10.75,
+    "status": true,
+    "stock": 3,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 2",
+    "description": "Descripción del producto 2.",
+    "code": "CODE002",
+    "price": 11.5,
+    "status": true,
+    "stock": 5,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 3",
+    "description": "Descripción del producto 3.",
+    "code": "CODE003",
+    "price": 12.25,
+    "status": true,
+    "stock": 7,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 4",
+    "description": "Descripción del producto 4.",
+    "code": "CODE004",
+    "price": 13.0,
+    "status": true,
+    "stock": 9,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 5",
+    "description": "Descripción del producto 5.",
+    "code": "CODE005",
+    "price": 13.75,
+    "status": true,
+    "stock": 11,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 6",
+    "description": "Descripción del producto 6.",
+    "code": "CODE006",
+    "price": 14.5,
+    "status": true,
+    "stock": 13,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 7",
+    "description": "Descripción del producto 7.",
+    "code": "CODE007",
+    "price": 15.25,
+    "status": true,
+    "stock": 15,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 8",
+    "description": "Descripción del producto 8.",
+    "code": "CODE008",
+    "price": 16.0,
+    "status": true,
+    "stock": 17,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 9",
+    "description": "Descripción del producto 9.",
+    "code": "CODE009",
+    "price": 16.75,
+    "status": true,
+    "stock": 19,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 10",
+    "description": "Descripción del producto 10.",
+    "code": "CODE010",
+    "price": 17.5,
+    "status": true,
+    "stock": 21,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 11",
+    "description": "Descripción del producto 11.",
+    "code": "CODE011",
+    "price": 18.25,
+    "status": true,
+    "stock": 23,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 12",
+    "description": "Descripción del producto 12.",
+    "code": "CODE012",
+    "price": 19.0,
+    "status": true,
+    "stock": 25,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 13",
+    "description": "Descripción del producto 13.",
+    "code": "CODE013",
+    "price": 19.75,
+    "status": true,
+    "stock": 27,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 14",
+    "description": "Descripción del producto 14.",
+    "code": "CODE014",
+    "price": 20.5,
+    "status": true,
+    "stock": 29,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 15",
+    "description": "Descripción del producto 15.",
+    "code": "CODE015",
+    "price": 21.25,
+    "status": true,
+    "stock": 31,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 16",
+    "description": "Descripción del producto 16.",
+    "code": "CODE016",
+    "price": 22.0,
+    "status": true,
+    "stock": 33,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 17",
+    "description": "Descripción del producto 17.",
+    "code": "CODE017",
+    "price": 22.75,
+    "status": true,
+    "stock": 35,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 18",
+    "description": "Descripción del producto 18.",
+    "code": "CODE018",
+    "price": 23.5,
+    "status": true,
+    "stock": 37,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 19",
+    "description": "Descripción del producto 19.",
+    "code": "CODE019",
+    "price": 24.25,
+    "status": true,
+    "stock": 39,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 20",
+    "description": "Descripción del producto 20.",
+    "code": "CODE020",
+    "price": 25.0,
+    "status": true,
+    "stock": 41,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 21",
+    "description": "Descripción del producto 21.",
+    "code": "CODE021",
+    "price": 25.75,
+    "status": true,
+    "stock": 43,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 22",
+    "description": "Descripción del producto 22.",
+    "code": "CODE022",
+    "price": 26.5,
+    "status": true,
+    "stock": 45,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 23",
+    "description": "Descripción del producto 23.",
+    "code": "CODE023",
+    "price": 27.25,
+    "status": true,
+    "stock": 47,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 24",
+    "description": "Descripción del producto 24.",
+    "code": "CODE024",
+    "price": 28.0,
+    "status": true,
+    "stock": 49,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 25",
+    "description": "Descripción del producto 25.",
+    "code": "CODE025",
+    "price": 28.75,
+    "status": true,
+    "stock": 51,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 26",
+    "description": "Descripción del producto 26.",
+    "code": "CODE026",
+    "price": 29.5,
+    "status": true,
+    "stock": 53,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 27",
+    "description": "Descripción del producto 27.",
+    "code": "CODE027",
+    "price": 30.25,
+    "status": true,
+    "stock": 55,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 28",
+    "description": "Descripción del producto 28.",
+    "code": "CODE028",
+    "price": 31.0,
+    "status": true,
+    "stock": 57,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 29",
+    "description": "Descripción del producto 29.",
+    "code": "CODE029",
+    "price": 31.75,
+    "status": true,
+    "stock": 59,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 30",
+    "description": "Descripción del producto 30.",
+    "code": "CODE030",
+    "price": 32.5,
+    "status": true,
+    "stock": 61,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 31",
+    "description": "Descripción del producto 31.",
+    "code": "CODE031",
+    "price": 33.25,
+    "status": true,
+    "stock": 63,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 32",
+    "description": "Descripción del producto 32.",
+    "code": "CODE032",
+    "price": 34.0,
+    "status": true,
+    "stock": 65,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 33",
+    "description": "Descripción del producto 33.",
+    "code": "CODE033",
+    "price": 34.75,
+    "status": true,
+    "stock": 67,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 34",
+    "description": "Descripción del producto 34.",
+    "code": "CODE034",
+    "price": 35.5,
+    "status": true,
+    "stock": 69,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 35",
+    "description": "Descripción del producto 35.",
+    "code": "CODE035",
+    "price": 36.25,
+    "status": true,
+    "stock": 71,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 36",
+    "description": "Descripción del producto 36.",
+    "code": "CODE036",
+    "price": 37.0,
+    "status": true,
+    "stock": 73,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 37",
+    "description": "Descripción del producto 37.",
+    "code": "CODE037",
+    "price": 37.75,
+    "status": true,
+    "stock": 75,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 38",
+    "description": "Descripción del producto 38.",
+    "code": "CODE038",
+    "price": 38.5,
+    "status": true,
+    "stock": 77,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 39",
+    "description": "Descripción del producto 39.",
+    "code": "CODE039",
+    "price": 39.25,
+    "status": true,
+    "stock": 79,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 40",
+    "description": "Descripción del producto 40.",
+    "code": "CODE040",
+    "price": 40.0,
+    "status": true,
+    "stock": 81,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 41",
+    "description": "Descripción del producto 41.",
+    "code": "CODE041",
+    "price": 40.75,
+    "status": true,
+    "stock": 83,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 42",
+    "description": "Descripción del producto 42.",
+    "code": "CODE042",
+    "price": 41.5,
+    "status": true,
+    "stock": 85,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 43",
+    "description": "Descripción del producto 43.",
+    "code": "CODE043",
+    "price": 42.25,
+    "status": true,
+    "stock": 87,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 44",
+    "description": "Descripción del producto 44.",
+    "code": "CODE044",
+    "price": 43.0,
+    "status": true,
+    "stock": 89,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 45",
+    "description": "Descripción del producto 45.",
+    "code": "CODE045",
+    "price": 43.75,
+    "status": true,
+    "stock": 91,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 46",
+    "description": "Descripción del producto 46.",
+    "code": "CODE046",
+    "price": 44.5,
+    "status": true,
+    "stock": 93,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 47",
+    "description": "Descripción del producto 47.",
+    "code": "CODE047",
+    "price": 45.25,
+    "status": true,
+    "stock": 95,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 48",
+    "description": "Descripción del producto 48.",
+    "code": "CODE048",
+    "price": 46.0,
+    "status": true,
+    "stock": 97,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 49",
+    "description": "Descripción del producto 49.",
+    "code": "CODE049",
+    "price": 46.75,
+    "status": true,
+    "stock": 99,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 50",
+    "description": "Descripción del producto 50.",
+    "code": "CODE050",
+    "price": 47.5,
+    "status": true,
+    "stock": 1,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 51",
+    "description": "Descripción del producto 51.",
+    "code": "CODE051",
+    "price": 48.25,
+    "status": true,
+    "stock": 3,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 52",
+    "description": "Descripción del producto 52.",
+    "code": "CODE052",
+    "price": 49.0,
+    "status": true,
+    "stock": 5,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 53",
+    "description": "Descripción del producto 53.",
+    "code": "CODE053",
+    "price": 49.75,
+    "status": true,
+    "stock": 7,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 54",
+    "description": "Descripción del producto 54.",
+    "code": "CODE054",
+    "price": 50.5,
+    "status": true,
+    "stock": 9,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 55",
+    "description": "Descripción del producto 55.",
+    "code": "CODE055",
+    "price": 51.25,
+    "status": true,
+    "stock": 11,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 56",
+    "description": "Descripción del producto 56.",
+    "code": "CODE056",
+    "price": 52.0,
+    "status": true,
+    "stock": 13,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 57",
+    "description": "Descripción del producto 57.",
+    "code": "CODE057",
+    "price": 52.75,
+    "status": true,
+    "stock": 15,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 58",
+    "description": "Descripción del producto 58.",
+    "code": "CODE058",
+    "price": 53.5,
+    "status": true,
+    "stock": 17,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 59",
+    "description": "Descripción del producto 59.",
+    "code": "CODE059",
+    "price": 54.25,
+    "status": true,
+    "stock": 19,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 60",
+    "description": "Descripción del producto 60.",
+    "code": "CODE060",
+    "price": 55.0,
+    "status": true,
+    "stock": 21,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 61",
+    "description": "Descripción del producto 61.",
+    "code": "CODE061",
+    "price": 55.75,
+    "status": true,
+    "stock": 23,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 62",
+    "description": "Descripción del producto 62.",
+    "code": "CODE062",
+    "price": 56.5,
+    "status": true,
+    "stock": 25,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 63",
+    "description": "Descripción del producto 63.",
+    "code": "CODE063",
+    "price": 57.25,
+    "status": true,
+    "stock": 27,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 64",
+    "description": "Descripción del producto 64.",
+    "code": "CODE064",
+    "price": 58.0,
+    "status": true,
+    "stock": 29,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 65",
+    "description": "Descripción del producto 65.",
+    "code": "CODE065",
+    "price": 58.75,
+    "status": true,
+    "stock": 31,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 66",
+    "description": "Descripción del producto 66.",
+    "code": "CODE066",
+    "price": 59.5,
+    "status": true,
+    "stock": 33,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 67",
+    "description": "Descripción del producto 67.",
+    "code": "CODE067",
+    "price": 60.25,
+    "status": true,
+    "stock": 35,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 68",
+    "description": "Descripción del producto 68.",
+    "code": "CODE068",
+    "price": 61.0,
+    "status": true,
+    "stock": 37,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 69",
+    "description": "Descripción del producto 69.",
+    "code": "CODE069",
+    "price": 61.75,
+    "status": true,
+    "stock": 39,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 70",
+    "description": "Descripción del producto 70.",
+    "code": "CODE070",
+    "price": 62.5,
+    "status": true,
+    "stock": 41,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 71",
+    "description": "Descripción del producto 71.",
+    "code": "CODE071",
+    "price": 63.25,
+    "status": true,
+    "stock": 43,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 72",
+    "description": "Descripción del producto 72.",
+    "code": "CODE072",
+    "price": 64.0,
+    "status": true,
+    "stock": 45,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 73",
+    "description": "Descripción del producto 73.",
+    "code": "CODE073",
+    "price": 64.75,
+    "status": true,
+    "stock": 47,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 74",
+    "description": "Descripción del producto 74.",
+    "code": "CODE074",
+    "price": 65.5,
+    "status": true,
+    "stock": 49,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 75",
+    "description": "Descripción del producto 75.",
+    "code": "CODE075",
+    "price": 66.25,
+    "status": true,
+    "stock": 51,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 76",
+    "description": "Descripción del producto 76.",
+    "code": "CODE076",
+    "price": 67.0,
+    "status": true,
+    "stock": 53,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 77",
+    "description": "Descripción del producto 77.",
+    "code": "CODE077",
+    "price": 67.75,
+    "status": true,
+    "stock": 55,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 78",
+    "description": "Descripción del producto 78.",
+    "code": "CODE078",
+    "price": 68.5,
+    "status": true,
+    "stock": 57,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 79",
+    "description": "Descripción del producto 79.",
+    "code": "CODE079",
+    "price": 69.25,
+    "status": true,
+    "stock": 59,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 80",
+    "description": "Descripción del producto 80.",
+    "code": "CODE080",
+    "price": 70.0,
+    "status": true,
+    "stock": 61,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 81",
+    "description": "Descripción del producto 81.",
+    "code": "CODE081",
+    "price": 70.75,
+    "status": true,
+    "stock": 63,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 82",
+    "description": "Descripción del producto 82.",
+    "code": "CODE082",
+    "price": 71.5,
+    "status": true,
+    "stock": 65,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 83",
+    "description": "Descripción del producto 83.",
+    "code": "CODE083",
+    "price": 72.25,
+    "status": true,
+    "stock": 67,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 84",
+    "description": "Descripción del producto 84.",
+    "code": "CODE084",
+    "price": 73.0,
+    "status": true,
+    "stock": 69,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 85",
+    "description": "Descripción del producto 85.",
+    "code": "CODE085",
+    "price": 73.75,
+    "status": true,
+    "stock": 71,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 86",
+    "description": "Descripción del producto 86.",
+    "code": "CODE086",
+    "price": 74.5,
+    "status": true,
+    "stock": 73,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 87",
+    "description": "Descripción del producto 87.",
+    "code": "CODE087",
+    "price": 75.25,
+    "status": true,
+    "stock": 75,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 88",
+    "description": "Descripción del producto 88.",
+    "code": "CODE088",
+    "price": 76.0,
+    "status": true,
+    "stock": 77,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 89",
+    "description": "Descripción del producto 89.",
+    "code": "CODE089",
+    "price": 76.75,
+    "status": true,
+    "stock": 79,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 90",
+    "description": "Descripción del producto 90.",
+    "code": "CODE090",
+    "price": 77.5,
+    "status": true,
+    "stock": 81,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 91",
+    "description": "Descripción del producto 91.",
+    "code": "CODE091",
+    "price": 78.25,
+    "status": true,
+    "stock": 83,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 92",
+    "description": "Descripción del producto 92.",
+    "code": "CODE092",
+    "price": 79.0,
+    "status": true,
+    "stock": 85,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 93",
+    "description": "Descripción del producto 93.",
+    "code": "CODE093",
+    "price": 79.75,
+    "status": true,
+    "stock": 87,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 94",
+    "description": "Descripción del producto 94.",
+    "code": "CODE094",
+    "price": 80.5,
+    "status": true,
+    "stock": 89,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 95",
+    "description": "Descripción del producto 95.",
+    "code": "CODE095",
+    "price": 81.25,
+    "status": true,
+    "stock": 91,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 96",
+    "description": "Descripción del producto 96.",
+    "code": "CODE096",
+    "price": 82.0,
+    "status": true,
+    "stock": 93,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 97",
+    "description": "Descripción del producto 97.",
+    "code": "CODE097",
+    "price": 82.75,
+    "status": true,
+    "stock": 95,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 98",
+    "description": "Descripción del producto 98.",
+    "code": "CODE098",
+    "price": 83.5,
+    "status": true,
+    "stock": 97,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 99",
+    "description": "Descripción del producto 99.",
+    "code": "CODE099",
+    "price": 84.25,
+    "status": true,
+    "stock": 99,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 100",
+    "description": "Descripción del producto 100.",
+    "code": "CODE100",
+    "price": 85.0,
+    "status": true,
+    "stock": 1,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 101",
+    "description": "Descripción del producto 101.",
+    "code": "CODE101",
+    "price": 85.75,
+    "status": true,
+    "stock": 3,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 102",
+    "description": "Descripción del producto 102.",
+    "code": "CODE102",
+    "price": 86.5,
+    "status": true,
+    "stock": 5,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 103",
+    "description": "Descripción del producto 103.",
+    "code": "CODE103",
+    "price": 87.25,
+    "status": true,
+    "stock": 7,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 104",
+    "description": "Descripción del producto 104.",
+    "code": "CODE104",
+    "price": 88.0,
+    "status": true,
+    "stock": 9,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 105",
+    "description": "Descripción del producto 105.",
+    "code": "CODE105",
+    "price": 88.75,
+    "status": true,
+    "stock": 11,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 106",
+    "description": "Descripción del producto 106.",
+    "code": "CODE106",
+    "price": 89.5,
+    "status": true,
+    "stock": 13,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 107",
+    "description": "Descripción del producto 107.",
+    "code": "CODE107",
+    "price": 90.25,
+    "status": true,
+    "stock": 15,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 108",
+    "description": "Descripción del producto 108.",
+    "code": "CODE108",
+    "price": 91.0,
+    "status": true,
+    "stock": 17,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 109",
+    "description": "Descripción del producto 109.",
+    "code": "CODE109",
+    "price": 91.75,
+    "status": true,
+    "stock": 19,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 110",
+    "description": "Descripción del producto 110.",
+    "code": "CODE110",
+    "price": 92.5,
+    "status": true,
+    "stock": 21,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 111",
+    "description": "Descripción del producto 111.",
+    "code": "CODE111",
+    "price": 93.25,
+    "status": true,
+    "stock": 23,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 112",
+    "description": "Descripción del producto 112.",
+    "code": "CODE112",
+    "price": 94.0,
+    "status": true,
+    "stock": 25,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 113",
+    "description": "Descripción del producto 113.",
+    "code": "CODE113",
+    "price": 94.75,
+    "status": true,
+    "stock": 27,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 114",
+    "description": "Descripción del producto 114.",
+    "code": "CODE114",
+    "price": 95.5,
+    "status": true,
+    "stock": 29,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 115",
+    "description": "Descripción del producto 115.",
+    "code": "CODE115",
+    "price": 96.25,
+    "status": true,
+    "stock": 31,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 116",
+    "description": "Descripción del producto 116.",
+    "code": "CODE116",
+    "price": 97.0,
+    "status": true,
+    "stock": 33,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 117",
+    "description": "Descripción del producto 117.",
+    "code": "CODE117",
+    "price": 97.75,
+    "status": true,
+    "stock": 35,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 118",
+    "description": "Descripción del producto 118.",
+    "code": "CODE118",
+    "price": 98.5,
+    "status": true,
+    "stock": 37,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 119",
+    "description": "Descripción del producto 119.",
+    "code": "CODE119",
+    "price": 99.25,
+    "status": true,
+    "stock": 39,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 120",
+    "description": "Descripción del producto 120.",
+    "code": "CODE120",
+    "price": 100.0,
+    "status": true,
+    "stock": 41,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 121",
+    "description": "Descripción del producto 121.",
+    "code": "CODE121",
+    "price": 100.75,
+    "status": true,
+    "stock": 43,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 122",
+    "description": "Descripción del producto 122.",
+    "code": "CODE122",
+    "price": 101.5,
+    "status": true,
+    "stock": 45,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 123",
+    "description": "Descripción del producto 123.",
+    "code": "CODE123",
+    "price": 102.25,
+    "status": true,
+    "stock": 47,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 124",
+    "description": "Descripción del producto 124.",
+    "code": "CODE124",
+    "price": 103.0,
+    "status": true,
+    "stock": 49,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 125",
+    "description": "Descripción del producto 125.",
+    "code": "CODE125",
+    "price": 103.75,
+    "status": true,
+    "stock": 51,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 126",
+    "description": "Descripción del producto 126.",
+    "code": "CODE126",
+    "price": 104.5,
+    "status": true,
+    "stock": 53,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 127",
+    "description": "Descripción del producto 127.",
+    "code": "CODE127",
+    "price": 105.25,
+    "status": true,
+    "stock": 55,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 128",
+    "description": "Descripción del producto 128.",
+    "code": "CODE128",
+    "price": 106.0,
+    "status": true,
+    "stock": 57,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 129",
+    "description": "Descripción del producto 129.",
+    "code": "CODE129",
+    "price": 106.75,
+    "status": true,
+    "stock": 59,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 130",
+    "description": "Descripción del producto 130.",
+    "code": "CODE130",
+    "price": 107.5,
+    "status": true,
+    "stock": 61,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 131",
+    "description": "Descripción del producto 131.",
+    "code": "CODE131",
+    "price": 108.25,
+    "status": true,
+    "stock": 63,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 132",
+    "description": "Descripción del producto 132.",
+    "code": "CODE132",
+    "price": 109.0,
+    "status": true,
+    "stock": 65,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 133",
+    "description": "Descripción del producto 133.",
+    "code": "CODE133",
+    "price": 109.75,
+    "status": true,
+    "stock": 67,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 134",
+    "description": "Descripción del producto 134.",
+    "code": "CODE134",
+    "price": 110.5,
+    "status": true,
+    "stock": 69,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 135",
+    "description": "Descripción del producto 135.",
+    "code": "CODE135",
+    "price": 111.25,
+    "status": true,
+    "stock": 71,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 136",
+    "description": "Descripción del producto 136.",
+    "code": "CODE136",
+    "price": 112.0,
+    "status": true,
+    "stock": 73,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 137",
+    "description": "Descripción del producto 137.",
+    "code": "CODE137",
+    "price": 112.75,
+    "status": true,
+    "stock": 75,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 138",
+    "description": "Descripción del producto 138.",
+    "code": "CODE138",
+    "price": 113.5,
+    "status": true,
+    "stock": 77,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 139",
+    "description": "Descripción del producto 139.",
+    "code": "CODE139",
+    "price": 114.25,
+    "status": true,
+    "stock": 79,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 140",
+    "description": "Descripción del producto 140.",
+    "code": "CODE140",
+    "price": 115.0,
+    "status": true,
+    "stock": 81,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 141",
+    "description": "Descripción del producto 141.",
+    "code": "CODE141",
+    "price": 115.75,
+    "status": true,
+    "stock": 83,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 142",
+    "description": "Descripción del producto 142.",
+    "code": "CODE142",
+    "price": 116.5,
+    "status": true,
+    "stock": 85,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 143",
+    "description": "Descripción del producto 143.",
+    "code": "CODE143",
+    "price": 117.25,
+    "status": true,
+    "stock": 87,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 144",
+    "description": "Descripción del producto 144.",
+    "code": "CODE144",
+    "price": 118.0,
+    "status": true,
+    "stock": 89,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 145",
+    "description": "Descripción del producto 145.",
+    "code": "CODE145",
+    "price": 118.75,
+    "status": true,
+    "stock": 91,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 146",
+    "description": "Descripción del producto 146.",
+    "code": "CODE146",
+    "price": 119.5,
+    "status": true,
+    "stock": 93,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 147",
+    "description": "Descripción del producto 147.",
+    "code": "CODE147",
+    "price": 120.25,
+    "status": true,
+    "stock": 95,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 148",
+    "description": "Descripción del producto 148.",
+    "code": "CODE148",
+    "price": 121.0,
+    "status": true,
+    "stock": 97,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 149",
+    "description": "Descripción del producto 149.",
+    "code": "CODE149",
+    "price": 121.75,
+    "status": true,
+    "stock": 99,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 150",
+    "description": "Descripción del producto 150.",
+    "code": "CODE150",
+    "price": 122.5,
+    "status": true,
+    "stock": 1,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 151",
+    "description": "Descripción del producto 151.",
+    "code": "CODE151",
+    "price": 123.25,
+    "status": true,
+    "stock": 3,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 152",
+    "description": "Descripción del producto 152.",
+    "code": "CODE152",
+    "price": 124.0,
+    "status": true,
+    "stock": 5,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 153",
+    "description": "Descripción del producto 153.",
+    "code": "CODE153",
+    "price": 124.75,
+    "status": true,
+    "stock": 7,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 154",
+    "description": "Descripción del producto 154.",
+    "code": "CODE154",
+    "price": 125.5,
+    "status": true,
+    "stock": 9,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 155",
+    "description": "Descripción del producto 155.",
+    "code": "CODE155",
+    "price": 126.25,
+    "status": true,
+    "stock": 11,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 156",
+    "description": "Descripción del producto 156.",
+    "code": "CODE156",
+    "price": 127.0,
+    "status": true,
+    "stock": 13,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 157",
+    "description": "Descripción del producto 157.",
+    "code": "CODE157",
+    "price": 127.75,
+    "status": true,
+    "stock": 15,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 158",
+    "description": "Descripción del producto 158.",
+    "code": "CODE158",
+    "price": 128.5,
+    "status": true,
+    "stock": 17,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 159",
+    "description": "Descripción del producto 159.",
+    "code": "CODE159",
+    "price": 129.25,
+    "status": true,
+    "stock": 19,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 160",
+    "description": "Descripción del producto 160.",
+    "code": "CODE160",
+    "price": 130.0,
+    "status": true,
+    "stock": 21,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 161",
+    "description": "Descripción del producto 161.",
+    "code": "CODE161",
+    "price": 130.75,
+    "status": true,
+    "stock": 23,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 162",
+    "description": "Descripción del producto 162.",
+    "code": "CODE162",
+    "price": 131.5,
+    "status": true,
+    "stock": 25,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 163",
+    "description": "Descripción del producto 163.",
+    "code": "CODE163",
+    "price": 132.25,
+    "status": true,
+    "stock": 27,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 164",
+    "description": "Descripción del producto 164.",
+    "code": "CODE164",
+    "price": 133.0,
+    "status": true,
+    "stock": 29,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 165",
+    "description": "Descripción del producto 165.",
+    "code": "CODE165",
+    "price": 133.75,
+    "status": true,
+    "stock": 31,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 166",
+    "description": "Descripción del producto 166.",
+    "code": "CODE166",
+    "price": 134.5,
+    "status": true,
+    "stock": 33,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 167",
+    "description": "Descripción del producto 167.",
+    "code": "CODE167",
+    "price": 135.25,
+    "status": true,
+    "stock": 35,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 168",
+    "description": "Descripción del producto 168.",
+    "code": "CODE168",
+    "price": 136.0,
+    "status": true,
+    "stock": 37,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 169",
+    "description": "Descripción del producto 169.",
+    "code": "CODE169",
+    "price": 136.75,
+    "status": true,
+    "stock": 39,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 170",
+    "description": "Descripción del producto 170.",
+    "code": "CODE170",
+    "price": 137.5,
+    "status": true,
+    "stock": 41,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 171",
+    "description": "Descripción del producto 171.",
+    "code": "CODE171",
+    "price": 138.25,
+    "status": true,
+    "stock": 43,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 172",
+    "description": "Descripción del producto 172.",
+    "code": "CODE172",
+    "price": 139.0,
+    "status": true,
+    "stock": 45,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 173",
+    "description": "Descripción del producto 173.",
+    "code": "CODE173",
+    "price": 139.75,
+    "status": true,
+    "stock": 47,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 174",
+    "description": "Descripción del producto 174.",
+    "code": "CODE174",
+    "price": 140.5,
+    "status": true,
+    "stock": 49,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 175",
+    "description": "Descripción del producto 175.",
+    "code": "CODE175",
+    "price": 141.25,
+    "status": true,
+    "stock": 51,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 176",
+    "description": "Descripción del producto 176.",
+    "code": "CODE176",
+    "price": 142.0,
+    "status": true,
+    "stock": 53,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 177",
+    "description": "Descripción del producto 177.",
+    "code": "CODE177",
+    "price": 142.75,
+    "status": true,
+    "stock": 55,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 178",
+    "description": "Descripción del producto 178.",
+    "code": "CODE178",
+    "price": 143.5,
+    "status": true,
+    "stock": 57,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 179",
+    "description": "Descripción del producto 179.",
+    "code": "CODE179",
+    "price": 144.25,
+    "status": true,
+    "stock": 59,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 180",
+    "description": "Descripción del producto 180.",
+    "code": "CODE180",
+    "price": 145.0,
+    "status": true,
+    "stock": 61,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 181",
+    "description": "Descripción del producto 181.",
+    "code": "CODE181",
+    "price": 145.75,
+    "status": true,
+    "stock": 63,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 182",
+    "description": "Descripción del producto 182.",
+    "code": "CODE182",
+    "price": 146.5,
+    "status": true,
+    "stock": 65,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 183",
+    "description": "Descripción del producto 183.",
+    "code": "CODE183",
+    "price": 147.25,
+    "status": true,
+    "stock": 67,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 184",
+    "description": "Descripción del producto 184.",
+    "code": "CODE184",
+    "price": 148.0,
+    "status": true,
+    "stock": 69,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 185",
+    "description": "Descripción del producto 185.",
+    "code": "CODE185",
+    "price": 148.75,
+    "status": true,
+    "stock": 71,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 186",
+    "description": "Descripción del producto 186.",
+    "code": "CODE186",
+    "price": 149.5,
+    "status": true,
+    "stock": 73,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 187",
+    "description": "Descripción del producto 187.",
+    "code": "CODE187",
+    "price": 150.25,
+    "status": true,
+    "stock": 75,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 188",
+    "description": "Descripción del producto 188.",
+    "code": "CODE188",
+    "price": 151.0,
+    "status": true,
+    "stock": 77,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 189",
+    "description": "Descripción del producto 189.",
+    "code": "CODE189",
+    "price": 151.75,
+    "status": true,
+    "stock": 79,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 190",
+    "description": "Descripción del producto 190.",
+    "code": "CODE190",
+    "price": 152.5,
+    "status": true,
+    "stock": 81,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 191",
+    "description": "Descripción del producto 191.",
+    "code": "CODE191",
+    "price": 153.25,
+    "status": true,
+    "stock": 83,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 192",
+    "description": "Descripción del producto 192.",
+    "code": "CODE192",
+    "price": 154.0,
+    "status": true,
+    "stock": 85,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 193",
+    "description": "Descripción del producto 193.",
+    "code": "CODE193",
+    "price": 154.75,
+    "status": true,
+    "stock": 87,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 194",
+    "description": "Descripción del producto 194.",
+    "code": "CODE194",
+    "price": 155.5,
+    "status": true,
+    "stock": 89,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 195",
+    "description": "Descripción del producto 195.",
+    "code": "CODE195",
+    "price": 156.25,
+    "status": true,
+    "stock": 91,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 196",
+    "description": "Descripción del producto 196.",
+    "code": "CODE196",
+    "price": 157.0,
+    "status": true,
+    "stock": 93,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 197",
+    "description": "Descripción del producto 197.",
+    "code": "CODE197",
+    "price": 157.75,
+    "status": true,
+    "stock": 95,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 198",
+    "description": "Descripción del producto 198.",
+    "code": "CODE198",
+    "price": 158.5,
+    "status": true,
+    "stock": 97,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 199",
+    "description": "Descripción del producto 199.",
+    "code": "CODE199",
+    "price": 159.25,
+    "status": true,
+    "stock": 99,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 200",
+    "description": "Descripción del producto 200.",
+    "code": "CODE200",
+    "price": 160.0,
+    "status": true,
+    "stock": 1,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 201",
+    "description": "Descripción del producto 201.",
+    "code": "CODE201",
+    "price": 160.75,
+    "status": true,
+    "stock": 3,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 202",
+    "description": "Descripción del producto 202.",
+    "code": "CODE202",
+    "price": 161.5,
+    "status": true,
+    "stock": 5,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 203",
+    "description": "Descripción del producto 203.",
+    "code": "CODE203",
+    "price": 162.25,
+    "status": true,
+    "stock": 7,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 204",
+    "description": "Descripción del producto 204.",
+    "code": "CODE204",
+    "price": 163.0,
+    "status": true,
+    "stock": 9,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 205",
+    "description": "Descripción del producto 205.",
+    "code": "CODE205",
+    "price": 163.75,
+    "status": true,
+    "stock": 11,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 206",
+    "description": "Descripción del producto 206.",
+    "code": "CODE206",
+    "price": 164.5,
+    "status": true,
+    "stock": 13,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 207",
+    "description": "Descripción del producto 207.",
+    "code": "CODE207",
+    "price": 165.25,
+    "status": true,
+    "stock": 15,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 208",
+    "description": "Descripción del producto 208.",
+    "code": "CODE208",
+    "price": 166.0,
+    "status": true,
+    "stock": 17,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 209",
+    "description": "Descripción del producto 209.",
+    "code": "CODE209",
+    "price": 166.75,
+    "status": true,
+    "stock": 19,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 210",
+    "description": "Descripción del producto 210.",
+    "code": "CODE210",
+    "price": 167.5,
+    "status": true,
+    "stock": 21,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 211",
+    "description": "Descripción del producto 211.",
+    "code": "CODE211",
+    "price": 168.25,
+    "status": true,
+    "stock": 23,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 212",
+    "description": "Descripción del producto 212.",
+    "code": "CODE212",
+    "price": 169.0,
+    "status": true,
+    "stock": 25,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 213",
+    "description": "Descripción del producto 213.",
+    "code": "CODE213",
+    "price": 169.75,
+    "status": true,
+    "stock": 27,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 214",
+    "description": "Descripción del producto 214.",
+    "code": "CODE214",
+    "price": 170.5,
+    "status": true,
+    "stock": 29,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 215",
+    "description": "Descripción del producto 215.",
+    "code": "CODE215",
+    "price": 171.25,
+    "status": true,
+    "stock": 31,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 216",
+    "description": "Descripción del producto 216.",
+    "code": "CODE216",
+    "price": 172.0,
+    "status": true,
+    "stock": 33,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 217",
+    "description": "Descripción del producto 217.",
+    "code": "CODE217",
+    "price": 172.75,
+    "status": true,
+    "stock": 35,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 218",
+    "description": "Descripción del producto 218.",
+    "code": "CODE218",
+    "price": 173.5,
+    "status": true,
+    "stock": 37,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 219",
+    "description": "Descripción del producto 219.",
+    "code": "CODE219",
+    "price": 174.25,
+    "status": true,
+    "stock": 39,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 220",
+    "description": "Descripción del producto 220.",
+    "code": "CODE220",
+    "price": 175.0,
+    "status": true,
+    "stock": 41,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 221",
+    "description": "Descripción del producto 221.",
+    "code": "CODE221",
+    "price": 175.75,
+    "status": true,
+    "stock": 43,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 222",
+    "description": "Descripción del producto 222.",
+    "code": "CODE222",
+    "price": 176.5,
+    "status": true,
+    "stock": 45,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 223",
+    "description": "Descripción del producto 223.",
+    "code": "CODE223",
+    "price": 177.25,
+    "status": true,
+    "stock": 47,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 224",
+    "description": "Descripción del producto 224.",
+    "code": "CODE224",
+    "price": 178.0,
+    "status": true,
+    "stock": 49,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 225",
+    "description": "Descripción del producto 225.",
+    "code": "CODE225",
+    "price": 178.75,
+    "status": true,
+    "stock": 51,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 226",
+    "description": "Descripción del producto 226.",
+    "code": "CODE226",
+    "price": 179.5,
+    "status": true,
+    "stock": 53,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 227",
+    "description": "Descripción del producto 227.",
+    "code": "CODE227",
+    "price": 180.25,
+    "status": true,
+    "stock": 55,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 228",
+    "description": "Descripción del producto 228.",
+    "code": "CODE228",
+    "price": 181.0,
+    "status": true,
+    "stock": 57,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 229",
+    "description": "Descripción del producto 229.",
+    "code": "CODE229",
+    "price": 181.75,
+    "status": true,
+    "stock": 59,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 230",
+    "description": "Descripción del producto 230.",
+    "code": "CODE230",
+    "price": 182.5,
+    "status": true,
+    "stock": 61,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 231",
+    "description": "Descripción del producto 231.",
+    "code": "CODE231",
+    "price": 183.25,
+    "status": true,
+    "stock": 63,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 232",
+    "description": "Descripción del producto 232.",
+    "code": "CODE232",
+    "price": 184.0,
+    "status": true,
+    "stock": 65,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 233",
+    "description": "Descripción del producto 233.",
+    "code": "CODE233",
+    "price": 184.75,
+    "status": true,
+    "stock": 67,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 234",
+    "description": "Descripción del producto 234.",
+    "code": "CODE234",
+    "price": 185.5,
+    "status": true,
+    "stock": 69,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 235",
+    "description": "Descripción del producto 235.",
+    "code": "CODE235",
+    "price": 186.25,
+    "status": true,
+    "stock": 71,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 236",
+    "description": "Descripción del producto 236.",
+    "code": "CODE236",
+    "price": 187.0,
+    "status": true,
+    "stock": 73,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 237",
+    "description": "Descripción del producto 237.",
+    "code": "CODE237",
+    "price": 187.75,
+    "status": true,
+    "stock": 75,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 238",
+    "description": "Descripción del producto 238.",
+    "code": "CODE238",
+    "price": 188.5,
+    "status": true,
+    "stock": 77,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 239",
+    "description": "Descripción del producto 239.",
+    "code": "CODE239",
+    "price": 189.25,
+    "status": true,
+    "stock": 79,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 240",
+    "description": "Descripción del producto 240.",
+    "code": "CODE240",
+    "price": 190.0,
+    "status": true,
+    "stock": 81,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 241",
+    "description": "Descripción del producto 241.",
+    "code": "CODE241",
+    "price": 190.75,
+    "status": true,
+    "stock": 83,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 242",
+    "description": "Descripción del producto 242.",
+    "code": "CODE242",
+    "price": 191.5,
+    "status": true,
+    "stock": 85,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 243",
+    "description": "Descripción del producto 243.",
+    "code": "CODE243",
+    "price": 192.25,
+    "status": true,
+    "stock": 87,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 244",
+    "description": "Descripción del producto 244.",
+    "code": "CODE244",
+    "price": 193.0,
+    "status": true,
+    "stock": 89,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 245",
+    "description": "Descripción del producto 245.",
+    "code": "CODE245",
+    "price": 193.75,
+    "status": true,
+    "stock": 91,
+    "category": "Paletas",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 246",
+    "description": "Descripción del producto 246.",
+    "code": "CODE246",
+    "price": 194.5,
+    "status": true,
+    "stock": 93,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 247",
+    "description": "Descripción del producto 247.",
+    "code": "CODE247",
+    "price": 195.25,
+    "status": true,
+    "stock": 95,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 248",
+    "description": "Descripción del producto 248.",
+    "code": "CODE248",
+    "price": 196.0,
+    "status": true,
+    "stock": 97,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 249",
+    "description": "Descripción del producto 249.",
+    "code": "CODE249",
+    "price": 196.75,
+    "status": true,
+    "stock": 99,
+    "category": "Bolsos",
+    "thumbnails": []
+  },
+  {
+    "title": "Producto 250",
+    "description": "Descripción del producto 250.",
+    "code": "CODE250",
+    "price": 197.5,
+    "status": true,
+    "stock": 1,
+    "category": "Paletas",
+    "thumbnails": []
+  }
+])

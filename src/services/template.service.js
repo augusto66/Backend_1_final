@@ -1,8 +1,8 @@
-import { UserRepository } from '../repositories/index.js'
+import { UserRepository } from "../repositories/index.js";
 
 export class UserService {
   constructor() {
-    this.userRepository = new UserRepository()
+    this.userRepository = new UserRepository();
   }
 
   createUser = async ({ firstName, lastName, email, profileImage }) => {
@@ -12,10 +12,10 @@ export class UserService {
         lastName,
         email,
         profileImage,
-      })
+      });
     } catch (error) {
-      error.message = `Error en el repository: "${error.message}".\n`
-      throw error
+      error.message = `Error en el repository: "${error.message}".\n`;
+      throw error;
     }
-  }
+  };
 }

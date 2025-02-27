@@ -2,11 +2,11 @@
 const errorHandler = (err, req, res, next) => {
   //En caso que ya se haya enviado la response (con res.send o res.render), se delega la responsabilidad al default errorHandler de Express.
   if (res.headersSent) {
-    return next(err)
+    return next(err);
   }
-  console.error('Entro al error handler!')
-  console.error(err.stack)
-  res.status(500).send('Something broke!')
-}
+  console.error("Entro al error handler!");
+  console.error(err.stack);
+  res.status(500).send("Something broke!");
+};
 
-export default errorHandler
+export default errorHandler;

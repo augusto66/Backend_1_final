@@ -1,8 +1,8 @@
-import { UserModel } from '../models/user.model.js'
+import { UserModel } from "../models/user.model.js";
 
 export class UserRepository {
   constructor() {
-    this.userModel = UserModel
+    this.userModel = UserModel;
   }
 
   createUser = async ({ firstName, lastName, email, profileImage }) => {
@@ -12,11 +12,11 @@ export class UserRepository {
         email,
         profileImage,
         firstName,
-      })
+      });
     } catch (error) {
-      error.message = `Error en el repository: "${error.message}".\n`
-      throw error
+      error.message = `Error en el repository: "${error.message}".\n`;
+      throw error;
     }
-  }
-  getUserById = async () => {}
+  };
+  getUserById = async () => {};
 }

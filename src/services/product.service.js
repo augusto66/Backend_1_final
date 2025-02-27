@@ -1,4 +1,4 @@
-import { ProductModel } from '../models/products.model.js';
+import { ProductModel } from "../models/products.model.js";
 
 export class ProductService {
   // Crear un nuevo producto
@@ -8,7 +8,7 @@ export class ProductService {
       await product.save();
       return product;
     } catch (error) {
-      throw new Error('Error al crear el producto: ' + error.message);
+      throw new Error("Error al crear el producto: " + error.message);
     }
   };
 
@@ -16,10 +16,17 @@ export class ProductService {
   getProducts = async ({ limit, page, query, sort }) => {
     try {
       // Filtros básicos para búsqueda
-      const filter = query ? { $or: [{ title: new RegExp(query, 'i') }, { description: new RegExp(query, 'i') }] } : {};
+      const filter = query
+        ? {
+            $or: [
+              { title: new RegExp(query, "i") },
+              { description: new RegExp(query, "i") },
+            ],
+          }
+        : {};
 
       // Ordenamiento
-      const options = sort ? { sort: { price: sort === 'asc' ? 1 : -1 } } : {};
+      const options = sort ? { sort: { price: sort === "asc" ? 1 : -1 } } : {};
 
       // Paginación
       const products = await ProductModel.paginate(filter, {
@@ -30,7 +37,7 @@ export class ProductService {
 
       return products;
     } catch (error) {
-      throw new Error('Error al obtener los productos: ' + error.message);
+      throw new Error("Error al obtener los productos: " + error.message);
     }
   };
 
@@ -39,24 +46,28 @@ export class ProductService {
     try {
       const product = await ProductModel.findById(id);
       if (!product) {
-        throw new Error('Producto no encontrado');
+        throw new Error("Producto no encontrado");
       }
       return product;
     } catch (error) {
-      throw new Error('Error al obtener el producto: ' + error.message);
+      throw new Error("Error al obtener el producto: " + error.message);
     }
   };
 
   // Actualizar un producto por ID
   updateProduct = async (id, productData) => {
     try {
-      const updatedProduct = await ProductModel.findByIdAndUpdate(id, productData, { new: true });
+      const updatedProduct = await ProductModel.findByIdAndUpdate(
+        id,
+        productData,
+        { new: true }
+      );
       if (!updatedProduct) {
-        throw new Error('Producto no encontrado para actualizar');
+        throw new Error("Producto no encontrado para actualizar");
       }
       return updatedProduct;
     } catch (error) {
-      throw new Error('Error al actualizar el producto: ' + error.message);
+      throw new Error("Error al actualizar el producto: " + error.message);
     }
   };
 
@@ -65,11 +76,11 @@ export class ProductService {
     try {
       const deletedProduct = await ProductModel.findByIdAndDelete(id);
       if (!deletedProduct) {
-        throw new Error('Producto no encontrado para eliminar');
+        throw new Error("Producto no encontrado para eliminar");
       }
       return deletedProduct;
     } catch (error) {
-      throw new Error('Error al eliminar el producto: ' + error.message);
+      throw new Error("Error al eliminar el producto: " + error.message);
     }
   };
 }

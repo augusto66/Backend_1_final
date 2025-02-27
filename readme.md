@@ -24,7 +24,7 @@ Este proyecto es un backend desarrollado con Node.js y Express que permite la ad
 4. Configura las variables de entorno en un archivo `.env`:
    ```sh
    MONGO_URI=tu_conexion_a_mongodb
-   PORT=3000
+   PORT=3006
    ```
 5. Inicia el servidor:
    ```sh
@@ -74,27 +74,52 @@ Al obtener un carrito mediante `GET /api/carts/:cid`, se utiliza `populate` para
 ## 4. Tecnologías Utilizadas
 - **Node.js** y **Express.js** para el backend.
 - **MongoDB** y **Mongoose** para la base de datos.
-- **dotenv** para gestionar variables de entorno.
-- **nodemon** para recargar el servidor en desarrollo.
 
 ## 5. Estructura del Proyecto
 ```
-Entrega_Final/
-│-- src/
-│   │-- controllers/
-│   │   ├── cart.controller.js
-│   │   ├── product.controller.js
-│   │-- models/
-│   │   ├── carts.model.js
-│   │   ├── products.model.js
-│   │-- routes/
-│   │   ├── cart.routes.js
-│   │   ├── product.routes.js
-│   ├── app.js
-│   ├── server.js
-├── .env
-├── package.json
-├── README.md
+
+ENTREGA_FINAL
+├node_modules
+├src/
+  	├── app/
+      		└── index.js
+	├── config/
+		└── index.js
+	├── controllers/
+		└── cart.controller.js
+		└── index.js
+		└── product.controller.js
+		└── template.controller.js
+	├── db/
+		└── index.js
+	├── middlewares/
+		└── errorHandling.js
+		└── logger.js
+		└── multer.js
+		└── multiStepErrorHandling.js
+		└── validationMiddleware.js
+	├── models/
+		└── carts.model.js
+		└── products.model.js
+	├── repositories/
+		└── index.js
+		└── template.repository.js
+	├── routes/
+		└── cart.routes.js
+		└── index.js
+		└── product.routes.js
+		└── template.routes.js
+	├── services/
+		└── index.js
+		└── product.service.js
+		└── template.service.js
+	├── validations/
+		└── product.validations.js
+		└── template.validations.js
+	├── server.js
+	├── .gitignore
+	├── package.json
+	├── readme.md
 ```
 
 Este backend proporciona una estructura modular y bien organizada para la gestión de carritos de compras en una tienda online.

@@ -1,4 +1,4 @@
-//SOLO VALIDO EN TYPE MODULE
+
 //Usando commonjs __dirname ya está accesible globalmente
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
